@@ -18,6 +18,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* codepush_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* codepush_testTests.m */; };
 		7BB137D4CDDE0279EDD886F0 /* libPods-codepush_test-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DED3FC759D751A9F4B454A11 /* libPods-codepush_test-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		84CFDFC52587C68700A1B1B3 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84CFDFC42587C68700A1B1B3 /* AppCenter-Config.plist */; };
 		F25638A6511D695D4BFB1A1B /* libPods-codepush_test-codepush_testTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7F1F8CA05F53FB887DFADF /* libPods-codepush_test-codepush_testTests.a */; };
 		F4951EF82427A3C5F8A0D02C /* libPods-codepush_test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 730A05FFBA245482FE823098 /* libPods-codepush_test.a */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		7C666221242EFEEB4F0C4B34 /* Pods-codepush_test-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepush_test-tvOS.release.xcconfig"; path = "Target Support Files/Pods-codepush_test-tvOS/Pods-codepush_test-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = codepush_test/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83E1049385FCA3004CF4478F /* Pods-codepush_test-codepush_testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepush_test-codepush_testTests.release.xcconfig"; path = "Target Support Files/Pods-codepush_test-codepush_testTests/Pods-codepush_test-codepush_testTests.release.xcconfig"; sourceTree = "<group>"; };
+		84CFDFC42587C68700A1B1B3 /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		984D735718984CE68210A694 /* Pods-codepush_test-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepush_test-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-codepush_test-tvOSTests/Pods-codepush_test-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		B5748FDA65C71316227BCB85 /* Pods-codepush_test-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepush_test-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-codepush_test-tvOSTests/Pods-codepush_test-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD27CF4EE6A391850E1BBA28 /* Pods-codepush_test-codepush_testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepush_test-codepush_testTests.debug.xcconfig"; path = "Target Support Files/Pods-codepush_test-codepush_testTests/Pods-codepush_test-codepush_testTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				84CFDFC42587C68700A1B1B3 /* AppCenter-Config.plist */,
 				13B07FAE1A68108700A75B9A /* codepush_test */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* codepush_testTests */,
@@ -194,7 +197,6 @@
 				B5748FDA65C71316227BCB85 /* Pods-codepush_test-tvOSTests.debug.xcconfig */,
 				984D735718984CE68210A694 /* Pods-codepush_test-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -342,6 +344,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				84CFDFC52587C68700A1B1B3 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
